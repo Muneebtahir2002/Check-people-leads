@@ -1,9 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import CustomAppBar from "./small components/appbar"
+import CircleButtonComponent from "./components/landingpage"
 
 function App() {
   return (
     <div className="App">
+      <CustomAppBar/>
+      <CircleButtonComponent/>
     </div>
   );
 }
