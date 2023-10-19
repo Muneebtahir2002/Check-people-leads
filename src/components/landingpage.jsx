@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from "../images/Duck.svg"
+import Logo from "../images/check_people_leads_logo.png"
 import "../css/Landingpage.css"
 const CircleButtonComponent = () => {
   const [inputValue, setInputValue] = useState('');
