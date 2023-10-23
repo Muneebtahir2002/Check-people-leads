@@ -1,17 +1,29 @@
 import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom';
+import '../css/CustomAppBar.css';
+
 
 function CustomAppBar() {
   return (
-    <AppBar position="static" color="transparent" elevation={0} >
+    <AppBar position="static" className="AppBar" elevation={0} color='transparent'>
       <Toolbar>
-      <div style={{ flexGrow: 1 }} /> 
-        <IconButton edge="end" color="inherit" aria-label="menu">
-          <MenuIcon />
-        </IconButton>
+      <Link to="/Contact-Us" className="Link">
+        About
+        </Link>
+        <Link to="/FAQ" className="Link">
+          Blog
+        </Link>
+        <div style={{ flexGrow: 1 }} />
+        <h3 className="CenteredText">Check People Lead</h3>
+        <div style={{ flexGrow: 1 }} />
+        <Link to="/Contact-Us" className="Link">
+        Contact Us
+        </Link>
+        <Link to="/FAQ" className="Link">
+          FAQ
+        </Link>
       </Toolbar>
     </AppBar>
   );

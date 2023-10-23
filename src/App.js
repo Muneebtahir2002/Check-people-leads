@@ -1,12 +1,9 @@
 import React from 'react';
-import CustomAppBar from "./small components/appbar"
-import CircleButtonComponent from "./components/landingpage"
-
+import ROUTE from './routes';
 function App() {
   return (
     <div className="App">
-      <CustomAppBar/>
-      <CircleButtonComponent/>
+      <ROUTE/>
     </div>
   );
 }

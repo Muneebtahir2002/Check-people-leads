@@ -1,0 +1,25 @@
+.AppBar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px; 
+    font-size: 30px;
+  }
+  
+  .Link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 50px;
+    padding: 40px;
+    font-family: Hauora;
+    font-size: large;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 30px;
+  }
+  .CenteredText {
+    text-align: center;
+  }

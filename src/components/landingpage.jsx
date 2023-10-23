@@ -7,10 +7,12 @@ const CircleButtonComponent = () => {
   const [activeButton, setActiveButton] = useState(null);
   
   const handleButtonClick = (buttonLabel) => {
+    setInputValue1('');
+    setInputValue2('');
     setActiveButton(buttonLabel);
   }
   const handleSubmit = () => {
-    alert(`Submitted: Value1 - ${inputValue1}, Value2 - ${inputValue2}`);
+    alert(`Submitted: ${inputValue1}, ${inputValue2}`);
   }
 
   return (
