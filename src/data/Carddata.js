@@ -3,8 +3,7 @@ import IMG from '../images/Duck.svg'
 export const dummydata = [
     {
       imageUrl: IMG,
-      title: 'Do you know I Like to code and learn about it?',
-      link: 'https://example.com/card1',
+      title: 'Do you know I Like to code and learn about',
       text:'Hello'
     },
     {
