@@ -9,19 +9,19 @@ function CustomAppBar() {
   return (
     <AppBar position="static" className="AppBar" elevation={0} color='transparent'>
       <Toolbar>
-      <Link to="/Contact-Us" className="Link">
+      <Link to="/about" className="Link">
         About
         </Link>
-        <Link to="/FAQ" className="Link">
+        <Link to="/blog" className="Link">
           Blog
         </Link>
         <div style={{ flexGrow: 1 }} />
         <h3 className="CenteredText">Check People Lead</h3>
         <div style={{ flexGrow: 1 }} />
-        <Link to="/Contact-Us" className="Link">
+        <Link to="/contact_us" className="Link">
         Contact Us
         </Link>
-        <Link to="/FAQ" className="Link">
+        <Link to="/faq" className="Link">
           FAQ
         </Link>
       </Toolbar>

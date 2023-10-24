@@ -1,11 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import CardColumn from '../small components/CardColumn';
+import { dummydata } from '../data/Carddata';
+import '../css/Blog.css'
 
-const Home = () => {
+function MyComponent() {
+  const [visibleItems, setVisibleItems] = useState(3);
+
+  const loadMore = () => {
+    setVisibleItems(visibleItems + 3);
+  };
+
   return (
     <div>
-      <h1>Home Page</h1>
+      <CardColumn dummydata={dummydata.slice(0, visibleItems)} />
+      {visibleItems < dummydata.length && (
+        <button className="load-more-button" onClick={loadMore}>
+          Load More
+        </button>
+      )}
     </div>
   );
-};
+}
 
-export default Home;
+export default MyComponent;
