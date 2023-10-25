@@ -4,7 +4,7 @@ export const dummydata = [
     {
       imageUrl: IMG,
       title: 'Do you know I Like to code and learn about',
-      text:'Hello'
+      text:'Hello.My Name is Muneeb And i am not a terrorist '
     },
     {
       imageUrl: IMG,

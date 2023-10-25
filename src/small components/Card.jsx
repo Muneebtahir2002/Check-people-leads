@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Card = ({ imageUrl, title, text }) => {
+  
+    const firstLine = text ? text.match(/^(.*?)(\.|$)/)[1] : '';
+
   return (
     <div className="card">
       <img src={imageUrl} alt={title} />
@@ -9,7 +12,7 @@ const Card = ({ imageUrl, title, text }) => {
         <h3 className='card-text'>
           <Link to={`/blog/${title}`}>{title}</Link>
         </h3>
-        {text && <p>{text}</p>}
+        {firstLine && <p>{firstLine}</p>}
       </div>
     </div>
   );
