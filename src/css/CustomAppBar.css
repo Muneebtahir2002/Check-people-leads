@@ -7,19 +7,26 @@
   }
   
   .Link {
-    text-decoration: none;
+    font-family: sans-serif;
     color: black;
     display: flex;
     gap: 50px;
     padding: 40px;
-    font-family: Hauora;
     font-size: large;
     font-weight: 300;
-    line-height: 22px;
-    letter-spacing: 0em;
     text-align: left;
     font-size: 30px;
   }
   .CenteredText {
+    font-family: sans-serif;
     text-align: center;
+    color: black;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: none;
+    }
+  
   }
