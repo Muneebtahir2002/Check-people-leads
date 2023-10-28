@@ -12,6 +12,7 @@ function MyComponent() {
 
   return (
     <div>
+      
       <CardColumn dummydata={dummydata.slice(0, visibleItems)} />
       {visibleItems < dummydata.length && (
         <button className="load-more-button" onClick={loadMore}>

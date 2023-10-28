@@ -7,7 +7,7 @@
   }
   
   .Link {
-    font-family: sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
     color: black;
     display: flex;
     gap: 50px;
@@ -18,7 +18,7 @@
     font-size: 30px;
   }
   .CenteredText {
-    font-family: sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
     text-align: center;
     color: black;
     cursor: pointer;

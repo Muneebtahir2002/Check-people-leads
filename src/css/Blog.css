@@ -5,6 +5,7 @@
   }
   
   .card {
+    width: 1000px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,6 +23,7 @@
   .card-title {
     margin-top: 10px;
     font-weight: bold;
+    font-family: 'Proxima Nova', sans-serif;
   }
   
   a {
@@ -34,6 +36,7 @@
   }
   .card-text{
     display: flex;
+    font-family: 'Proxima Nova', sans-serif;
     flex-direction: column;
   }
   .load-more-button {
