@@ -1,0 +1,47 @@
+.cslider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.cslide {
+  display: none;
+  text-align: center;
+}
+
+.cslide.active {
+  display: block;
+}
+
+.Ctext {
+  font-size: 30px;
+  margin-bottom: 10px; 
+}
+
+.Cname {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  margin-top: 40px; 
+}
+
+.slider-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #888;
+  margin: 0 10px; 
+  cursor: pointer;
+}
+
+.slider-dot.active {
+  background-color: #333;
+}

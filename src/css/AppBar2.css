@@ -1,0 +1,44 @@
+.l1{
+    display: flex;
+    color: black;
+  justify-content: center;
+  gap: 50px;
+  font-size: 20px;
+  font-family: 'Proxima Nova', sans-serif;
+  margin-top: 10px;
+}
+.l2{
+    display: flex;
+    color: black;
+    gap: 30px;
+    margin-left: 250px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+.logo {
+    width: 190px; 
+    height: 190px; 
+  }
+  .ima{
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Proxima Nova', sans-serif;
+  }
+  .p3{
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
+  }
+  .contact{
+    border: 2px solid black;
+    border-radius: 30%;
+    padding: 10px;
+  }
+  .log-in{
+    margin-top: 10px
+  }
+  h3{
+    color: black;
+  }

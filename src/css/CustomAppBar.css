@@ -18,15 +18,12 @@
     font-size: 30px;
   }
   .CenteredText {
+    font-size: 45px;
     font-family: 'Proxima Nova', sans-serif;
     text-align: center;
     color: black;
+    margin-left: 600px;
     cursor: pointer;
     list-style: none;
     text-decoration: none;
-    
-    &:hover {
-      text-decoration: none;
-    }
-  
   }

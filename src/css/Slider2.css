@@ -1,0 +1,31 @@
+.slider2-container { /* Corrected class name */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-text2 { /* Corrected class name */
+  font-size: 24px;
+  color: black; 
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Proxima Nova',sans-serif;
+  text-align: center; /* Center the text */
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slider-text2 {
+  animation: slideIn 0.5s ease-in-out;
+}

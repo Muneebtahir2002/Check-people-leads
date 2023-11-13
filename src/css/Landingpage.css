@@ -1,3 +1,12 @@
+.body-Home {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #ffffff, #eeddc8);
+  background-repeat: no-repeat;
+  border-left: 1px solid #000; 
+  border-right: 1px solid #000; 
+  margin-left: 100px;
+  margin-right: 87px;
+}
 .circle-button-container {
     display: flex;
     flex-direction: column;
@@ -46,7 +55,7 @@
     font-family: 'Proxima Nova', sans-serif;
     width: 50%; 
     padding: 10px;
-    border: 2px solid #ccc;
+    border: none;
     border-radius: 5px;
     margin-top: 10px;
   }
@@ -67,12 +76,6 @@
       color: white;
       transition: background-color 0.3s;
     }
-    .circle-button-container {
-      display: flex;
-      flex-direction: column; 
-      align-items: center; 
-      text-align: center;
-    }
     
     .logo-heading-container {
       display: flex;
@@ -81,9 +84,10 @@
     }
     
     .small-logo {
-      width: 200px;
-      height: 200px;
+      width: 250px;
+      height: 250px;
       margin-right: 10px; 
+      border: none;
     }
     
     .logo-heading {
@@ -91,9 +95,8 @@
     }
   
     .input-field-container{
-      gap: 20px;
+      gap: 30px;
     }
-
     @media screen and (max-width: 600px) {
       .circle-button-container {
         padding: 10px;

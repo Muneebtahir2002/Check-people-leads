@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ROUTE from './routes';
-import './App.css'
+import NewApp from './components/NewApp';
+
 function App() {
   return (
-    <div className="App">
-      <ROUTE/>
-    </div>
+    <div>
+        
+          <ROUTE />
+  </div>
   );
 }
 

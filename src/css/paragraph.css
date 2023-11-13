@@ -1,0 +1,20 @@
+.centered-paragraph{
+    font-family: 'Proxima Nova',sans-serif;
+    box-sizing: border-box;
+    text-align: left;
+    width: 730px;
+    margin-left: 300px;
+    font-size: 30px;
+  }
+  .different-color {
+    color: rgb(212, 214, 117);
+    font-size: 50px; 
+  }
+  .paragraph{
+    font-family: 'Proxima Nova',sans-serif;
+    box-sizing: border-box;
+    text-align: left;
+    width: 1000px;
+    margin-left: 300px;
+    font-size: 20px;
+  }

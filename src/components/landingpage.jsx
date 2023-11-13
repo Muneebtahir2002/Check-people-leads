@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import Logo from "../images/check_people_leads_logo.png"
 import "../css/Landingpage.css"
+import Paragraph from '../small components/paragraph';
+import Footer from '../small components/footer';
+import CustomAppBar from '../small components/appbar';
 
 const CircleButtonComponent = () => {
   const [inputValue1, setInputValue1] = useState('');
@@ -18,6 +21,8 @@ const CircleButtonComponent = () => {
   }
 
   return (
+    <div className='body-Home'>
+      <CustomAppBar/>
     <div className="circle-button-container">
       <div className="logo-heading-container">
         <img
@@ -25,7 +30,6 @@ const CircleButtonComponent = () => {
           alt="Logo"
           className="small-logo"
         />
-        <h1 className="logo-heading">Check People Leads</h1>
       </div>
 
       <div className="button-row">
@@ -48,7 +52,7 @@ const CircleButtonComponent = () => {
             value={inputValue1}
             onChange={(e) => setInputValue1(e.target.value)}
             className="input-field"
-            style={{ width: '200px' }}
+            style={{ width: '350px' }}
           />
           <input
             type="text"
@@ -56,7 +60,7 @@ const CircleButtonComponent = () => {
             value={inputValue2}
             onChange={(e) => setInputValue2(e.target.value)}
             className="input-field"
-            style={{ width: '200px' }}
+            style={{ width: '350px' }}
           />
         </div>
       )}
@@ -83,7 +87,10 @@ const CircleButtonComponent = () => {
 
       <button onClick={handleSubmit} className="submit-button">
         <div className="button-text">Submit</div>
-      </button>
+      </button> 
+    </div>
+    <Paragraph/>
+    <Footer/>
     </div>
   );
 };

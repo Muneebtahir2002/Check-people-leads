@@ -1,0 +1,36 @@
+.custom-table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-table th {
+    background-color: transparent; /* Set the background to transparent for th */
+    border: none; /* Remove border for th */
+  }
+  
+  .custom-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .custom-table tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  .custom-table tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .custom-table img {
+    width: 90px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
