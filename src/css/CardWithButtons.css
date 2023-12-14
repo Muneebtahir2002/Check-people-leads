@@ -1,0 +1,49 @@
+.card-card-container {
+    display: flex;
+    margin-left: 300px;
+  }
+  
+  .button-button-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-button-Card2 {
+    padding: 30px 75px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-container {
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+  }
+  
+  .head6 {
+    background-color: rgb(104, 104, 242);
+    color: white;
+    padding: 10px;
+    font-family: 'Proxima Nova', sans-serif;
+    border-radius: 5px;
+    margin: 20px 0; 
+    flex-grow: 1;
+    padding: 30px 75px;
+    font-size: 30px;
+  }
+  
+  .head6 strong {
+    display: block;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+  }
+  

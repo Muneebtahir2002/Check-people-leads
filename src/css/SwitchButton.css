@@ -1,0 +1,68 @@
+.switch-toggle-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.switch-toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 10px;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  font-size: 20px;
+  gap: 50px;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.label-left,
+.label-right {
+  flex: 1;
+  text-align: center;
+  font-size: 12px;
+}
+
+.toggle-button {
+  width: 15px;
+  height: 15px;
+  background-color: #e74c3c;
+  margin: 0 10px; 
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  margin-top: 15px;
+}
+
+.switch-toggle-container.right .toggle-button {
+  transform: translate(50%, -50%);
+}
+
+.switch-toggle-container.left .toggle-button {
+  transform: translate(-50%, -50%);
+}
+
+.content-container  {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.left-content {
+  display: block;
+}
+
+.right-content {
+  display: none;
+}
+
+.switch-toggle-container.right ~ .content-container.right-content {
+  display: block;
+}
+
+.switch-toggle-container.left ~ .content-container.left-content {
+  display: block;
+}

@@ -15,8 +15,8 @@ const Slider = () => {
   }, [texts.length]);
 
   return (
-    <div className="slider-container">
-      <h1 className="slider-text">{texts[currentTextIndex]}</h1>
+    <div className="slider1-container">
+      <h1 className="slider1-text">{texts[currentTextIndex]}</h1>
     </div>
   );
 };

@@ -1,0 +1,45 @@
+/* blognew.css */
+
+.cardnews-wrapper {
+    width: 700px; /* Set the fixed width as needed */
+    height: 400px; /* Set the fixed height as needed */
+    margin: 10px; /* Adjust margin for spacing between cards */
+  }
+  
+  .cardnews {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .cardnews img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .cardnews-content {
+    display: flex;
+    flex-direction: row; /* Set to row for side-by-side layout */
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Center items vertically */
+    padding: 10px;
+    text-align: center;
+    height: 100%; /* Fill the remaining height */
+  }
+  
+  .cardnews-text {
+    margin-top: 10px;
+  }
+  
+  .cardnews-text a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cardnews-text a:hover {
+    text-decoration: underline;
+  }
+  

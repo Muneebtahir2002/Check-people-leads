@@ -1,11 +1,11 @@
-.slider-container {
+.slider1-container {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .slider-text {
+  .slider1-text {
     font-size: 24px;
     color: white; 
     width: 100%;
@@ -24,7 +24,7 @@
     }
   }
   
-  .slider-text {
+  .slider1-text {
     animation: slideIn 0.5s ease-in-out;
   }
   

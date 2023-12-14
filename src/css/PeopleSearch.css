@@ -1,0 +1,37 @@
+.LINKS-centered{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+} 
+  .LINKS-centered span {
+    margin: 0 10px;
+  }
+  .LINKS-centered a{
+    color: #999999;
+    text-decoration: none;
+  }
+.button-button-s{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: box-shadow 0.3s;
+}  
+.grey{
+    background-color: #33333333;
+}
+.p-p2{
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
+.p-p2:hover{
+    color: red;
+}

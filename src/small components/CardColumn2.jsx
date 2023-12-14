@@ -1,11 +1,10 @@
 import React from 'react';
-import Card from './Card';
-
-function CardColumn({ dummydata }) {
+import Cardblognews from './Cardblognews';
+function CardColumn2({ dummydata }) {
   return (
-    <div className="card-columns">
+    <div className="card-rows">
       {dummydata.map((card) => (
-        <Card
+        <Cardblognews
           key={card.id}
           imageUrl={card.imageUrl}
           title={card.title}
@@ -17,4 +16,4 @@ function CardColumn({ dummydata }) {
   );
 }
 
-export default CardColumn;
+export default CardColumn2;

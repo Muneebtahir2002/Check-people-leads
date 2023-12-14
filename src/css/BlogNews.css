@@ -1,0 +1,42 @@
+/* Update the CSS class name to match the component */
+.card-rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 2000px;
+  }
+  
+  .card-column {
+    width: 48%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .load-more-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-blognews {
+    background-color: #3498db; /* Your button color */
+    color: #ffffff; /* Your button text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .page-numbers {
+    font-size: 16px;
+    color: #555555;
+  }
+  
+  /* Add media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .card-column {
+      width: 100%;
+    }
+  }
+  

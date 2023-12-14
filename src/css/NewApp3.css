@@ -1,0 +1,16 @@
+.image-image-center{
+display: flex;
+justify-content: center;
+margin-left: 800px;
+margin-top: 50;
+margin-bottom: 50px;
+}
+h3{
+    font-family: 'Proxima Nova', sans-serif;
+}
+h1{
+    font-family: 'Proxima Nova', sans-serif;
+}
+p{
+    font-family: 'Proxima Nova', sans-serif;
+}

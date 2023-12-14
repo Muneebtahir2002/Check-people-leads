@@ -1,0 +1,55 @@
+.card-row-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin-left: 300px;
+  }
+  
+  .cardrow {
+    width: 20%;
+    height: 300px;
+    margin: 10px;
+    padding: 0;
+    border: none; /* Remove border from the card */
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflow to prevent text from overflowing */
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff; /* Set background color */
+  }
+  
+  .iconRow {
+    background-color: rgba(52, 152, 219, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    border-top: 1px solid #ddd; /* Add border to the top of the content */
+  }
+  
+  .cardrow:hover {
+    transform: scale(1.05);
+  }
+  
+  .light-text {
+    color: #888;
+  }
+  .dropdown-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 6px 48px 6px 8px;
+  }
+  .dropdown-menu{
+    padding: 10px 20px;
+  }
+  

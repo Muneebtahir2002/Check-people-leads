@@ -1,18 +1,18 @@
-.slider2-container { /* Corrected class name */
+.slider2-container { 
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.slider-text2 { /* Corrected class name */
+.slider-text2 { 
   font-size: 24px;
   color: black; 
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
   font-family: 'Proxima Nova',sans-serif;
-  text-align: center; /* Center the text */
+  text-align: center; 
 }
 
 @keyframes slideIn {
